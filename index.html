@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,19 +20,22 @@
 <body>
   <header></header>
   <main>
-    <div class="container flexbox">
+    <div class="container relative">
       <!-- container schermata utenti -->
-      <div class="screens-wrapper flexbox">
-        <!-- screen utente -->
-        <div class="screen-user relative">
-          <img src="https://picsum.photos/200/300" alt="">
-          <div class="nome-utente absolute">
-            <span><i class="fa-solid fa-microphone-slash"></i></span><span>Pinco Pallo</span>
+      <div class="screens-wrapper-container">
+        <div class="screens-wrapper flexbox">
+          <!-- screen utente -->
+          <div class="user-screen relative">
+            <img src="https://picsum.photos/200/300" alt="">
+            <div class="user-name absolute">
+              <span><i class="fa-solid fa-microphone-slash"></i></span><span> Pinco Pallo</span>
+            </div>
           </div>
         </div>
 
 
       </div>
+
       <!-- barra sottostante -->
       <div class="bottom-bar flexbox">
         <!-- icone di sinistra mute, stop video -->
@@ -86,6 +93,16 @@
 
       </div>
 
+      <!-- speaker view in alto a destra -->
+      <div class="speaker-view absolute">
+        <span><i class="fa-sharp fa-solid fa-grid"></i></span><span>Speaker View</span>
+
+      </div>
+      <!-- iconcina a fianco a speaker view in alto a destra -->
+      <div class="top-right-icon absolute">
+        <span><i class="fa-solid fa-arrows-maximize "></i></span>
+
+      </div>
 
     </div>
 
