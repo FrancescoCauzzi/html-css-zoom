@@ -32,14 +32,13 @@ body{
   height: 100%;
   width: 80%;
   margin:auto;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 30px;
   height: 92%;
 }
 
 .screens-wrapper{
-  background-color: grey;
-  /* test */
+  
   height: 100%;
   width: 100%;
   margin: auto;
@@ -50,11 +49,11 @@ body{
 }
 
 .user-screen{
-  border: 3px solid greenyellow;
+  margin: 15px 5px 15px 5px;
   /* test */
-  min-width: 200px;
-  width: calc(100% / 7);
-  height: calc(100% /5);  
+  /* min-width: 200px; */
+  width: calc(100% / 7 - 10px );
+  height: calc(100% / 5 - 30px);
 }
 
 .user-screen img {
@@ -67,6 +66,7 @@ height: 100%;
   color: white;
   background-color: rgba(0,0,0, .4);
   padding: 4px;
+  font-size: 0.6em;
 }
 
 /* bottom-bar */
@@ -152,7 +152,7 @@ height: 100%;
 
 .speaker-view{
   top: 1%;
-  right: 5%;
+  right: 4%;
 }
 
 .top-right-icon{
@@ -160,5 +160,8 @@ height: 100%;
   right: 2%;
 }
 
+.fa-table-cells{
+  margin-right: 3px ;
+}
 
 /* Main */ 
