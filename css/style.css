@@ -35,6 +35,7 @@ body{
   padding-top: 60px;
   padding-bottom: 30px;
   height: 92%;
+  
 }
 
 .screens-wrapper{
@@ -45,6 +46,9 @@ body{
 
   /* proprieta flex-box */
   flex-wrap: wrap;
+  min-width: 350px;
+  overflow:hidden;
+  justify-content: center;
 
 }
 
@@ -52,12 +56,13 @@ body{
   margin: 15px 5px 15px 5px;
   /* test */
   /* min-width: 200px; */
+  min-width: 150px;
   width: calc(100% / 7 - 10px );
   height: calc(100% / 5 - 30px);
 }
 
 .user-screen img {
-width: 100%;
+width: 100%; 
 height: 100%;
 }
 
@@ -76,6 +81,8 @@ height: 100%;
   width: 100%;
   color: white;
   font-size: 0.6em;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
   /* padding: 10px 8px 10px 8px; */
 }
 
@@ -94,7 +101,8 @@ height: 100%;
 
 /* user-action */
 .user-actions{    
-  width: 20%;
+  max-width: 20%;
+  min-width: 140px;
   flex-direction: row;
   padding: 10px 0px 10px 10px;
 }
@@ -106,6 +114,7 @@ height: 100%;
   justify-content: center;
   width: 60%;
   padding: 10px 0px 10px 0px;
+  min-width: 450px;
 }
 
 .app-functionalities > *{
@@ -130,8 +139,8 @@ height: 100%;
   justify-content: center;
   align-items: center;
   background-color: #3B3B3B;
-  z-index: 1;
-  width: 50%;
+  /* z-index: 1; */
+  min-width: 80px;
   
 }
 
@@ -148,6 +157,7 @@ height: 100%;
   padding: 2px 3px 2px 3px;
   border-radius: 5px;
   font-size: 0.7em;
+  
 }
 
 .speaker-view{
